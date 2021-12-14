@@ -1,0 +1,10 @@
+<h1>Welcome</h1>
+<div>
+
+<form method="POST" action="{% url 'signout_view' %}">
+          {% csrf_token %}
+          <button type="submit"   class="btn btn-danger " ><i class="bi bi-box-arrow-right"></i> logout</button>
+          
+          
+        </form>
+    </div>
