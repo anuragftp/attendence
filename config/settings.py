@@ -132,6 +132,11 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 AUTH_USER_MODEL = 'accounts.User'
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> b229b9d... ver7
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
